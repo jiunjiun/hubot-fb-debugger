@@ -1,7 +1,7 @@
 {
   "name": "hubot-fb-debugger",
   "description": "A hubot script that does the Facebook Debugger and show Facebook link stat",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "author": "jiunjiun <quietmes@gmail.com>",
   "license": "MIT",
   "keywords": [
@@ -18,6 +18,7 @@
     "url": "https://github.com/jiunjiun/hubot-fb-debugger/issues"
   },
   "dependencies": {
+    "cli-table": "0.3.1",
     "coffee-script": "~1.6"
   },
   "devDependencies": {
