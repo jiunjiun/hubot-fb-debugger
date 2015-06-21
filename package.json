@@ -1,25 +1,25 @@
 {
   "name": "hubot-fb-debugger",
   "description": "A hubot script that does the Facebook Debugger and show Facebook link stat",
-  "version": "0.0.0",
+  "version": "0.0.1",
   "author": "jiunjiun <quietmes@gmail.com>",
   "license": "MIT",
-
-  "keywords": ["hubot","hubot-scripts", "facebook", "facebook-debugger"],
-
+  "keywords": [
+    "hubot",
+    "hubot-scripts",
+    "facebook",
+    "facebook-debugger"
+  ],
   "repository": {
     "type": "git",
     "url": "git://github.com/jiunjiun/hubot-fb-debugger.git"
   },
-
   "bugs": {
     "url": "https://github.com/jiunjiun/hubot-fb-debugger/issues"
   },
-
   "dependencies": {
     "coffee-script": "~1.6"
   },
-
   "devDependencies": {
     "mocha": "*",
     "chai": "*",
@@ -30,9 +30,7 @@
     "matchdep": "~0.1.2",
     "grunt-contrib-watch": "~0.5.3"
   },
-
   "main": "index.coffee",
-
   "scripts": {
     "test": "grunt test"
   }
