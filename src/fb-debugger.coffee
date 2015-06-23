@@ -1,18 +1,21 @@
 # Description
-#   A hubot script that does the things
-#
-# Configuration:
-#   LIST_OF_ENV_VARS_TO_SET
+#   A hubot script that does the `Facebook Debugger` and show `Facebook link stat`
 #
 # Commands:
-#   hubot hello - <what the respond trigger does>
-#   orly - <what the hear trigger does>
+#   fb_urldebug - <what the hear trigger does>
+#     fb_urldebug|fud <URL>
 #
-# Notes:
-#   <optional notes required for the script>
+#     sample
+#       fb_urldebug http://jiunjiun.logdown.com/
+#
+#   fb_link_stat - <what the hear trigger does>
+#     fb_link_stat|fls <URL>
+#
+#     sample
+#       fb_link_stat http://www.storm.mg/lifestyle/51669
 #
 # Author:
-#   jiunjiun[@<org>]
+#   jiunjiun[<quietmes@gmail.com>]
 
 module.exports = (robot) ->
   fb_urldebug = (url) ->

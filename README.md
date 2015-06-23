@@ -32,7 +32,7 @@ fb_urldebug|fud <URL>
 user1>> fb_urldebug http://jiunjiun.logdown.com/
 hubot>> https://developers.facebook.com/tools/debug/og/object?q=http://jiunjiun.logdown.com/
 ```
--
+---
 ###Show Facebook link stat
 
 ```
@@ -65,3 +65,9 @@ hubot>> http://www.storm.mg/lifestyle/51669
 │ click_count        │ 0                                                          │
 └────────────────────┴────────────────────────────────────────────────────────────┘
 ```
+
+---
+
+## Copyright / License
+* Copyright (c) 2015 jiunjiun (quietmes At gmail.com) 
+* Licensed under MIT licenses.
