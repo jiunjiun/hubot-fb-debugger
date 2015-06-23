@@ -1,7 +1,7 @@
 {
   "name": "hubot-fb-debugger",
   "description": "A hubot script that does the Facebook Debugger and show Facebook link stat",
-  "version": "0.0.4",
+  "version": "0.0.5",
   "author": "jiunjiun <quietmes@gmail.com>",
   "contributors": [
     {
